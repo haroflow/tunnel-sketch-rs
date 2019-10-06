@@ -1,2 +1,15 @@
 # tunnel-sketch-rs
-Sketch made on Rust + nannou based on old Tunnel Screensaver for MS-DOS
+Sketch made on Rust + nannou based on an old Tunnel Screensaver for MS-DOS.
+
+![](tunnel-sketch-rs.gif)
+
+## To run the code
+You may need to install cmake on Linux to compile _nannou_ dependencies.
+```
+cargo run --release
+```
+
+## Links
+[Rust Language](https://www.rust-lang.org/)
+
+[Nannou Library](https://nannou.cc/)
