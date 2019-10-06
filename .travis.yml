@@ -5,6 +5,7 @@ rust:
 - nightly
 script:
   - cargo build --release --verbose
+  - cargo test --verbose
 cache: cargo
 matrix:
   allow_failures:
@@ -15,6 +16,8 @@ os:
   - linux
   - osx
   - windows
+before_deploy:
+  - mv target/release/tunnel-sketch-rs "target/release/tunnel-sketch-rs-$TRAVIS_TAG-$TRAVIS_OS_NAME"
 deploy:
   provider: releases
   skip_cleanup: true
