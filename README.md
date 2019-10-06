@@ -1,5 +1,5 @@
 # tunnel-sketch-rs
-Sketch made on Rust + nannou based on an old Tunnel Screensaver for MS-DOS.
+Sketch made with Rust + nannou based on an old Tunnel Screensaver for MS-DOS.
 
 ![](tunnel-sketch-rs.gif)
 
